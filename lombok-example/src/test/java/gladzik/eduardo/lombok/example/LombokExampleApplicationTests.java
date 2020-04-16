@@ -1,0 +1,13 @@
+package gladzik.eduardo.lombok.example;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class LombokExampleApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
