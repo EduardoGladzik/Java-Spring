@@ -1,10 +1,10 @@
-package gladzik.eduardo.dependencyinjectionexample;
+package gladzik.eduardo.scopeexample;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DependencyinjectionexampleApplicationTests {
+class ScopeexampleApplicationTests {
 
 	@Test
 	void contextLoads() {
