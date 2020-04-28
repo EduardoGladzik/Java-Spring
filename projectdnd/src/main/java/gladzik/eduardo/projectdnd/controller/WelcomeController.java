@@ -13,7 +13,7 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String index() {
-        return "Welcome to the system!";
+        return "Welcome to the system! \n Type '/spells' in the url";
     }
 }
 

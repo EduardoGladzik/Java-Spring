@@ -75,7 +75,8 @@ public class SpellsController {
 
         return new ResponseEntity<SpellsEntity>(
                 this.spellsRepository.save(spellsEntity),
-                new HttpHeaders(), HttpStatus.OK);
+                new HttpHeaders(),
+                HttpStatus.OK);
     }
 
     /**

@@ -3,7 +3,7 @@ drop table if exists funcionario;
 drop table if exists spells;
 
 create table spells(
-    id_spell bigint auto_increment not null,
+    id_spell bigint auto_increment,
     name varchar(100) not null,
     range int not null,
     duration varchar(100) not null,
